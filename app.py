@@ -24,6 +24,8 @@ def load_enterprise_model():
     model.fit(X_train, y_train)
     return model, X_test, y_test
 
+model, X_test, y_test = load_enterprise_model()
+
 
 def ensure_dataset(filename: str = "creditcard.csv") -> str:
     """Ensure the dataset exists locally. If not, download it from a configured URL.
@@ -64,8 +66,6 @@ def ensure_dataset(filename: str = "creditcard.csv") -> str:
 
     st.success("Dataset downloaded")
     return filename
-
-model, X_test, y_test = load_enterprise_model()
 
 # --- 2. Session State Initialization ---
 if 'history_df' not in st.session_state:
