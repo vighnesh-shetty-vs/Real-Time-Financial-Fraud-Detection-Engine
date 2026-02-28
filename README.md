@@ -11,7 +11,7 @@ In high-frequency fintech environments, "Standard Accuracy" is a liability. A mo
 This project implements a **Real-Time Risk Decisioning Engine** designed to solve the "Imbalance Trap" in banking data. Developed as part of my focus on AI implementation in Fintech, this dashboard provides a production-grade interface for risk analysts to monitor, audit, and explain automated decisions in real-time.
 
 ### 🖥️ Dashboard Preview
-![Main Dashboard](image_1.png)
+![Main Dashboard](assets/image_1.png)
 
 ---
 
@@ -28,12 +28,12 @@ This project implements a **Real-Time Risk Decisioning Engine** designed to solv
 ### 3. Real-Time Threat Intelligence
 * **Dynamic Visuals:** Integrated **Time-Series Analysis** and **Pattern Distribution** charts track coordinated attack vectors as they occur.
 
-![Threat Pattern Analysis](image_2.png)
+![Threat Pattern Analysis](assets/image_2.png)
 
 ### 4. Immutable Audit Trail
 * **Complete Archive:** A persistent, session-wide log of every transaction with business-friendly "Yes/No" fraud flagging.
 
-![Complete Transaction Archive](image_3.png)
+![Complete Transaction Archive](assets/image_3.png)
 
 ---
 
@@ -63,7 +63,8 @@ This project implements a **Real-Time Risk Decisioning Engine** designed to solv
     ```bash
    streamlit run app.py
    ```
-**🎓 About the Developer**
-I am Vighnesh Shetty, currently pursuing an MSc in Data Analytics for Business at KEDGE Business School (Bordeaux, France). 
+##**🎓 About the Developer**
+
+* I am Vighnesh Shetty, currently pursuing an MSc in Data Analytics for Business at KEDGE Business School (Bordeaux, France). 
 With a background in Computer Engineering, I specialize in bridging the gap between advanced machine learning (PyTorch, XGBoost) 
 and commercial business value in the Fintech sector.
