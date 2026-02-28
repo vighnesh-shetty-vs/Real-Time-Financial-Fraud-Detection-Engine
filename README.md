@@ -63,7 +63,7 @@ This project implements a **Real-Time Risk Decisioning Engine** designed to solv
     ```bash
    streamlit run app.py
    ```
-##**🎓 About the Developer**
+##🎓 About the Developer
 
 * I am Vighnesh Shetty, currently pursuing an MSc in Data Analytics for Business at KEDGE Business School (Bordeaux, France). 
 With a background in Computer Engineering, I specialize in bridging the gap between advanced machine learning (PyTorch, XGBoost) 
