@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+.venv/
+*.pyc
+creditcard.csv
+dataset.zip
